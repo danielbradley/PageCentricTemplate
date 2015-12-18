@@ -1,0 +1,73 @@
+<div style=''>
+	<div style='padding:150px;'>
+		<form id='form-preregister' class='center span18' onsubmit='Validate( event, Submit ); return false;'>
+			<big>Pre-register</big>
+			<div>
+				<input type='hidden' name='action'    value='preregistrations_replace'>
+				<input type='hidden' name='user_type' value='DEFAULT'>
+			</div>
+			<div class='row vgap'>
+				<label class='span span6'>
+					<tt>Name</tt>
+					<input type='text' class='span6 text' name='name' required>
+				</label>
+				<label class='span span6'>
+					<tt>Email</tt>
+					<input type='text' class='span6 text' name='email' required>
+				</label>
+				<label class='span span6'>
+					<tt>&nbsp;</tt>
+					<input type='submit' class='span6 button' name='submit' value='Pre-register'>
+				</label>
+			</div>
+		</form>
+	</div>
+</div>
+<div style='background:#eee;'>
+	<div style='padding:150px;'>
+		<form id='form-signup' class='center span18' onsubmit='Validate( event, Submit ); return false;'>
+			<big>Sign up</big>
+			<div>
+				<input type='hidden' name='action' value='accounts_create'>
+			</div>
+			<div class='row vgap'>
+				<label class='span span6'>
+					<tt>Email</tt>
+					<input type='text' class='span6 text' name='email' required>
+				</label>
+				<label class='span span6'>
+					<tt>Password</tt>
+					<input type='password' class='span6 text' name='password' required>
+				</label>
+				<label class='span span6'>
+					<tt>&nbsp;</tt>
+					<input type='submit' class='span6 button' name='submit' value='Sign up'>
+				</label>
+			</div>
+		</form>
+	</div>
+</div>
+<div style=''>
+	<div style='padding:150px;'>
+		<form id='form-signup' class='center span18' onsubmit='Validate( event, Submit ); return false;'>
+			<big>Login</big>
+			<div>
+				<input type='hidden' name='action' value='users_sessions_replace'>
+			</div>
+			<div class='row vgap'>
+				<label class='span span6'>
+					<tt>Email</tt>
+					<input type='text' class='span6 text' name='email' required>
+				</label>
+				<label class='span span6'>
+					<tt>Password</tt>
+					<input type='password' class='span6 text' name='password' required>
+				</label>
+				<label class='span span6'>
+					<tt>&nbsp;</tt>
+					<input type='submit' class='span6 button' name='submit' value='Login'>
+				</label>
+			</div>
+		</form>
+	</div>
+</div>

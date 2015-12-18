@@ -1,0 +1,78 @@
+
+LABEL > TT
+{
+	line-height:30px;
+}
+
+INPUT[type='email'   ].text,
+INPUT[type='number'  ].text,
+INPUT[type='password'].text,
+INPUT[type='text'    ].text
+{
+	margin:0;
+	height:36px;
+	background:white;
+	border:solid 1px #aaa;
+}
+
+INPUT[type='submit'].button:disabled
+{
+	color:#aaa;
+	cursor:text;
+}
+
+DIV.custom_select
+{
+	background:#ccc;
+}
+
+SELECT
+{
+	border:solid 1px #ccc;
+	line-height:40px;
+}
+
+
+/*
+ *	Credit Cards
+ */
+
+INPUT[type='radio']
+{
+	position:absolute;
+	left:10px;
+	top:10px;
+}
+
+INPUT[type='radio'] + label
+{
+	padding:20px;
+
+	background:#dfdfdf;
+	border:solid 1px #aaa;
+	border-radius:2px;
+}
+
+INPUT[type='radio']:hover   + label,
+INPUT[type='radio']:checked + label
+{
+	background:#eeeeee;
+}
+
+INPUT[type='radio'] + label .plan_name,
+INPUT[type='radio'] + label .plan_price
+{
+	font-size:20px;
+	text-align:center;
+}
+
+INPUT[type='radio'] + label .plan_description
+{
+	margin:40px 0;
+	font-size:14px;
+}
+
+
+
+
+

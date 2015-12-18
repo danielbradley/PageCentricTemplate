@@ -1,0 +1,28 @@
+
+#logo
+{
+	position:absolute;
+	left:0;
+}
+
+#logo A
+{
+	font-weight:300;
+	font-size:24px;
+	line-height:80px;
+	color:white;
+}
+
+#top-menu
+{
+	position:absolute;
+	right:0;
+	line-height:80px;
+}
+
+#copyright
+{
+	position:absolute;
+	left:0;
+	line-height:80px;
+}
